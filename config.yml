@@ -5,3 +5,9 @@ git:
     source_file: example.html
     source_language: en
     translation_files_expression: 'example_<lang>.html'
+
+  - filter_type: file
+    file_format: HTML
+    source_file: example-duplicated.html
+    source_language: en
+    translation_files_expression: 'example-duplicated_<lang>.html'
